@@ -24,3 +24,15 @@ Five forecasting approaches were evaluated on a chronological test set, with SAR
 
 ![SARIMAX Actual vs Forecast](Images/SARIMAX_actual_vs_forecast.png)
 The model closely captures fluctuations in retail demand by incorporating external factors.  
+
+## Key Findings
+
+- **Inventory:** Strongest statistically significant predictor of sales (*p* < 0.001).
+- **Discounts:** Virtually no measurable relationship with sales.
+- **Seasonality:** Weak temporal patterns limited the effectiveness of univariate forecasting models.
+
+## Business Recommendations
+
+- **Increase Stock Availability:** Raise minimum inventory thresholds where commercially viable to reduce stock constraints and support potential sales growth.
+- **Reduce Routine Discounts:** Scale back routine and seasonal discounting where no measurable sales benefit is evident. Reassess if future sales patterns change.
+- **Integrate Forecasting with Inventory Planning:** Use SARIMAX forecasts alongside inventory and replenishment planning, incorporating operational variables to improve demand estimates.
