@@ -36,3 +36,9 @@ The model closely captures fluctuations in retail demand by incorporating extern
 - **Increase Stock Availability:** Raise minimum inventory thresholds where commercially viable to reduce stock constraints and support potential sales growth.
 - **Reduce Routine Discounts:** Scale back routine and seasonal discounting where no measurable sales benefit is evident. Reassess if future sales patterns change.
 - **Integrate Forecasting with Inventory Planning:** Use SARIMAX forecasts alongside inventory and replenishment planning, incorporating operational variables to improve demand estimates.
+
+## Limitations
+
+- **Limited Historical Data:** The dataset covers approximately two years, potentially limiting the capture of longer-term demand patterns.
+- **Weak Temporal Patterns:** Historical sales showed limited autocorrelation and weak seasonality, restricting the effectiveness of univariate forecasting models.
+- **Future Input Requirements:** SARIMAX requires future values of operational variables, such as inventory, pricing and promotions, to generate forecasts.
