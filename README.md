@@ -42,3 +42,10 @@ The model closely captures fluctuations in retail demand by incorporating extern
 - **Limited Historical Data:** The dataset covers approximately two years, potentially limiting the capture of longer-term demand patterns.
 - **Weak Temporal Patterns:** Historical sales showed limited autocorrelation and weak seasonality, restricting the effectiveness of univariate forecasting models.
 - **Future Input Requirements:** SARIMAX requires future values of operational variables, such as inventory, pricing and promotions, to generate forecasts.
+
+## How to Run the Project
+
+1. Open [`Notebook.ipynb`](Notebook.ipynb)
+2. Install the required dependencies using `pip install -r requirements.txt`.
+3. Run the notebook cells sequentially to reproduce the analysis and model evaluation. The dataset is loaded directly from this GitHub repository.
+```
